@@ -34,9 +34,9 @@ html{
     transition: .3s ease-in-out;
 }
 .navbar{
-    width: 80vw;
+    width: 90vw;
     height: 8vh;
-    /* background-color: rgba(232, 223, 224, 0.027); */
+    background-color: rgba(232, 223, 224, 0.027);
    position: fixed;
     left: 10vw;
     top: 5vh;
@@ -393,17 +393,19 @@ span{
 
 @media(max-width:768px){
     .list-item{
-        font-size: .3rem;
+        font-size: .5rem;
         margin-right: 0rem;
         flex-direction: column;
     } 
     .navbar{
         height: 3vh;
-        border: 2px solid rgb(13, 231, 13);
+        border: 1px solid rgb(13, 231, 13);
         box-shadow: 0 0 15px 5px rgb(24, 24, 228);
         position: fixed;
         left: 10vw;
         top: 5vh;
+        width: 90vw;
+        border-radius: .5rem;
        
         
     }
