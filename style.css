@@ -34,7 +34,7 @@ html{
     transition: .3s ease-in-out;
 }
 .navbar{
-    width: 90vw;
+    width: 80vw;
     height: 8vh;
     background-color: rgba(232, 223, 224, 0.027);
    position: fixed;
@@ -393,7 +393,7 @@ span{
 
 @media(max-width:768px){
     .list-item{
-        font-size: .5rem;
+        font-size: .43rem;
         margin-right: 0rem;
         flex-direction: column;
     } 
@@ -497,7 +497,7 @@ span{
         width: 40vw;
         height: 48vh;}
         .heading{
-            font-size: 1vw;
+            font-size: 1.9vw;
             width: 10vw;
             height: 4vh;
             border-bottom: 1px solid rgb(22, 205, 22);
