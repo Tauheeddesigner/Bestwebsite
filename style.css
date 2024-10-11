@@ -36,7 +36,7 @@ html{
 .navbar{
     width: 80vw;
     height: 8vh;
-    background-color: rgba(128, 123, 124, 0.027);
+    /* background-color: rgba(232, 223, 224, 0.027); */
    position: fixed;
     left: 10vw;
     top: 5vh;
@@ -71,7 +71,7 @@ cursor: pointer;
    
 }
 .leftnav{
-    margin-left: 1rem;
+    margin-left: .5rem;
     font-size: 1.5rem;
     color: white;
 }
