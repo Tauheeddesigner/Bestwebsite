@@ -362,7 +362,7 @@ span{
     height: 1.5vh;
     width: 60vw;
     border: 1px solid yellow;
-    margin-left: 5rem;
+   
     border-radius: 5px ;
 
 }
@@ -393,12 +393,12 @@ span{
 
 @media(max-width:768px){
     .list-item{
-        font-size: .7rem;
+        font-size: .3rem;
         margin-right: 0rem;
         flex-direction: column;
     } 
     .navbar{
-        height: 4vh;
+        height: 3vh;
         border: 2px solid rgb(13, 231, 13);
         box-shadow: 0 0 15px 5px rgb(24, 24, 228);
         position: fixed;
@@ -407,11 +407,55 @@ span{
        
         
     }
+    .content{
+        justify-content: space-between;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
   
     .leftnav{
-        font-size: .7rem;
+        font-size: .3rem;
         color: rgb(8, 218, 8);
+        
     } 
+    #skills{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #react{
+        font-size: .6rem;
+    }
+    #python_value{
+        font-size: .7rem;
+    }
+    #oop_value{
+        font-size: .7rem;
+    }
+    #java{
+        font-size: .6rem;
+    }
+    #java_value{
+        font-size: .7rem;
+    }
+    #DSA{
+        font-size: .6rem;
+    }
+    #dsa_value{
+        font-size: .7rem;
+    }
+    .react{
+        font-size: .6rem;
+    }
+    .react_value{
+        font-size: .7rem;
+    }
     .line1 {
         font-size: .7rem;
     }
@@ -422,17 +466,18 @@ span{
         font-size: .6rem;
     }
     .right_img{
-        height: 200px;
-        width: 150px;
-        margin-right: 2rem;
+        height: 150px;
+        width: 110px;
+        border-radius: 50%;
+       
         box-shadow: 0 0 15px 5px rgb(10, 223, 10);
         transition: .2s ease-in-out;
     }
  
     .cv{
-        padding: .6rem;
-        width: 6rem;
-        font-size: .6rem;
+        padding: .4rem;
+        width: 4rem;
+        font-size: .4rem;
     }
     .cv:hover{
         box-shadow: 0 0 15px 8px rgb(10, 223, 10);
@@ -446,7 +491,7 @@ span{
         width: 40vw;
         height: 48vh;}
         .heading{
-            font-size: 1.9vw;
+            font-size: 1vw;
             width: 10vw;
             height: 4vh;
             border-bottom: 1px solid rgb(22, 205, 22);
@@ -467,7 +512,7 @@ span{
             height: 6vh;
         }
         .key{
-            font-size: 1.9vw;
+            font-size: 1.5vw;
         }
         .value{
             font-size: 1.9vw;
@@ -478,17 +523,19 @@ span{
             width: 100vw;
         }
         .prog{
-            width: 100px;
-            height: 100px;
+            width: 85px;
+            height: 85px;
             background-color: rgb(10, 9, 9);
             border-radius: 50%;
             border: 1px solid hotpink;
             display: flex;
             justify-content: center;
             align-items: center;
+            
            background: conic-gradient(rgb(35,201,121) 3.6deg,black 0deg);
            box-shadow: 0 0 15px 5px rgb(4, 228, 4);
            flex-direction: column;
+          
         }
         .up_skill{
             display: flex;
@@ -497,8 +544,8 @@ span{
             flex-direction: column;
         }
         .inner{
-            width: 80px;
-            height: 80px;
+            width: 80%;
+            height: 80%;
             background-color: rgb(10, 11, 10);
             border-radius: 50%;
             border: 2px solid hotpink;
@@ -510,27 +557,27 @@ span{
         
         }
         .inner_text{
-            font-size: .7rem;
+            font-size: .4rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .inner_text1{
             margin-left: 1.7rem;
-            font-size: .7rem;
+            font-size: .4rem;
             color: rgb(10, 229, 10);
         }
         .inner_javavalue{
-            font-size: .7rem;
+            font-size: .5rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .inner_cssvalue{
-            font-size: .8rem;
+            font-size: .5rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .inner_htmlvalue{
-            font-size: .8rem;
+            font-size: .5rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
@@ -543,7 +590,7 @@ span{
             width: 100vw;
         }
         .cv1{
-            font-size: .7rem;
+            font-size: .5rem;
             padding: 1rem;
             width:8rem ;
         }
