@@ -31,7 +31,7 @@ body {
     border: 3px solid #00ff00;
     border-radius: 12px;
     animation: rotateBorder 5s infinite linear;
-    z-index: -1; /* Keep it behind the form */
+    z-index: 1; /* Keep it behind the form */
 }
 
 .contact-form {
@@ -82,8 +82,8 @@ body {
 .input-group input:focus,
 .input-group textarea:focus {
     outline: none;
-    border-color: #00ff80;
-    box-shadow: 0 0 8px rgba(0, 255, 128, 0.7);
+    border-color: #4000ff;
+    box-shadow: 0 0 15px rgba(0, 255, 128, 0.7);
 }
 
 .error-message {
@@ -123,32 +123,39 @@ body {
     transform: translateY(-3px);
 }
 
-/* @keyframes rotateBorder {
+@keyframes rotateBorder {
     0% {
         transform: rotate(0deg);
         border-color: #00ff00;
     }
     100% {
-        transform: rotate(360deg);
+        /* transform: rotate(10deg); */
         border-color: #00ff00;
     }
-} */
+}
 
 @media (max-width: 768px) {
     .contact-container {
-        padding: 20px;
+        padding: 18px;
     }
 
     .contact-form h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .contact-form p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .btn-submit {
         font-size: 16px;
+    }
+    input{
+        height: 4.5vh;
+        font-size: 14px;
+    }
+    .btn-submit{
+        height: 5vh;
     }
 }
 
