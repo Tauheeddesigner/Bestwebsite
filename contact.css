@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contact-container {
+    position: relative;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.border-animate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #00ff00;
+    border-radius: 12px;
+    animation: rotateBorder 5s infinite linear;
+    z-index: -1; /* Keep it behind the form */
+}
+
+.contact-form {
+    position: relative; /* Ensure form content is above the border */
+}
+
+.contact-form h1 {
+    font-size: 32px;
+    color: #00ff00;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-form p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #00ff00;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1; /* Keep it above the rotating border */
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    border-color: #00ff80;
+    box-shadow: 0 0 8px rgba(0, 255, 128, 0.7);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    display: none;
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #00ff00;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #00cc00;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+    transform: translateY(-3px);
+}
+
+/* @keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+        border-color: #00ff00;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #00ff00;
+    }
+} */
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-form h1 {
+        font-size: 28px;
+    }
+
+    .contact-form p {
+        font-size: 16px;
+    }
+
+    .btn-submit {
+        font-size: 16px;
+    }
+}
+
+
+
+
+

@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_USER_ID");  // Replace with your EmailJS user ID
+        })();
+    </script>
 </head>
 <body>
-    <h1>My name is muhammad tauheed</h1>
-    
+
+    <div class="contact-container">
+        <div class="border-animate"></div> <!-- Rotating border -->
+        <form id="contactForm" class="contact-form">
+            <h1>Contact Me</h1>
+            <p>I'd love to hear from you! Please fill out the form below.</p>
+
+            <div class="input-group animated-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <small class="error-message" id="name-error"></small>
+            </div>
+
+            <div class="input-group animated-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <small class="error-message" id="email-error"></small>
+            </div>
+
+            <div class="input-group animated-input">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Your Password" required>
+                <small class="error-message" id="password-error"></small>
+            </div>
+
+            <div class="input-group animated-input">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <small class="error-message" id="message-error"></small>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+            <small class="success-message" id="success-message"></small>
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
 </body>
 </html>
+
+
+
