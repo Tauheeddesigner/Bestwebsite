@@ -193,16 +193,26 @@ main{
     margin-left: 4rem;
 }
 .right_main{
+    
+    
     margin-top: 4rem;
     margin-right: 4rem;
+  
+    
+    
 }
+
+
 .right_img{
+    
+  
 background-image: url("tauheed-removebg-preview.png");
 background-size: cover;
-height: 300px;
-width: 200px;
+height: 260px;
+width: 230px;
 border: 1px solid green;
 border-radius: 50%;
+
 box-shadow: 0 0 15px 5px rgb(6, 214, 6);
 }
 .right_img:hover{
@@ -476,7 +486,7 @@ span{
     }
     .right_img{
         height: 150px;
-        width: 110px;
+        width: 120px;
         border-radius: 50%;
        
         box-shadow: 0 0 15px 5px rgb(10, 223, 10);
