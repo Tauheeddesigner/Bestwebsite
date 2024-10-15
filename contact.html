@@ -3,54 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Me</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="contact.css">
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("YOUR_USER_ID");  // Replace with your EmailJS user ID
-        })();
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="contact.js" defer></script>
 </head>
 <body>
-
-    <div class="contact-container">
-        <div class="border-animate"></div> <!-- Rotating border -->
-        <form id="contactForm" class="contact-form">
-            <h1>Contact Me</h1>
-            <p>I'd love to hear from you! Please fill out the form below.</p>
-
-            <div class="input-group animated-input">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Your Name" required>
-                <small class="error-message" id="name-error"></small>
-            </div>
-
-            <div class="input-group animated-input">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <small class="error-message" id="email-error"></small>
-            </div>
-
-            <div class="input-group animated-input">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Your Password" required>
-                <small class="error-message" id="password-error"></small>
-            </div>
-
-            <div class="input-group animated-input">
-                <label for="message">Message</label>
-                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                <small class="error-message" id="message-error"></small>
-            </div>
-
-            <button type="submit" class="btn-submit">Submit</button>
-            <small class="success-message" id="success-message"></small>
-        </form>
-    </div>
-
-    <script src="contact.js"></script>
+    
+    <div class="box">
+        
+        <h1>Contact Information</h1></div>
+        
+        <div class="information">
+            <div class="phone_sys">
+                
+                <div class="g">
+                    
+                    <img src="phone-removebg-preview.png" height="170px">
+                </div>
+                <span>03237594869</span>
+     
+             </div>
+             <div class="phone_sys">
+                
+                <div class="g">
+                    
+                    <img src="email-removebg-preview.png" height="190px">
+                </div>
+               <p>tauheeddesigner@gmail.com</p>
+     
+             </div>
+             <div class="phone_sys">
+                
+                <div class="g">
+                    
+                    <img src="din-removebg-preview.png" height="170px">
+                </div>
+                <a href="https://www.linkedin.com/in/tauheed-developer-047457321/">Linkdin Profile</a>
+     
+             </div>
+             <div class="phone_sys">
+                
+                <div class="g">
+                    
+                    <img src="ins-removebg-preview.png" height="170px">
+                </div>
+                <a href="https://github.com/Tauheeddesigner">Gitub Profile</a>
+     
+             </div>
+             
+             
+        </div>
+      
+ 
 </body>
 </html>
 
