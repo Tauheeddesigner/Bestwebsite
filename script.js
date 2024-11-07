@@ -220,7 +220,7 @@ tl4.from(".prog",{
     scroller:"body",
  
     start:"top 60%",
-    end:"top 40%",
+    end:"top 30%",
     scrub:4
   }
  
