@@ -448,6 +448,40 @@ tl1.from("input",{
       scrub:2
     }
 })
+tl1.from(".h",{
+  x:-200,
+  opacity:0,
+  duration:1,
+  scrollTrigger:{
+    trigger:".h",
+    scroller:"body",
+    start:"top 70%",
+    end:"top 50%"
+  }
+})
+tl1.from(".theory",{
+  x:-200,
+  opacity:0,
+  duration:1,
+  scrollTrigger:{
+    trigger:".theory",
+    scroller:"body",
+    start:"top 70%",
+    end:"top 50%"
+  }
+})
+let a1=gsap.timeline();
+a1.from(".img",{
+  x:300,
+  opacity:0,
+  duration:1})
+//   scrollTrigger:{
+//     trigger:".l",
+//     scroller:"body",
+//     start:"top 70%"
+//     // end:"top 50%"
+//   }
+// })
 
 
 

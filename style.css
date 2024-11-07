@@ -50,6 +50,9 @@ html{
    position: relative;
    box-shadow: 0 0 15px 5px blue;
 }
+a{
+    margin-right: 2rem;
+}
 
 .navbar:hover{
     background-color: black;
@@ -209,14 +212,24 @@ button{
 .right_img{
     
   
-/* background-image: url("bh.png_1_-removebg-preview.png"); */
-background-size: cover;
-height: 260px;
-width: 230px;
+
+
+height: 250px;
+width: 250px;
+
 border: 1px solid green;
 border-radius: 50%;
 
 box-shadow: 0 0 15px 5px rgb(6, 214, 6);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+position: relative;
+margin-top: 5rem;
+}
+img{
+    border-radius: 1rem;
 }
 .right_img:hover{
   
@@ -343,9 +356,31 @@ span{
    box-shadow: 0 0 15px 5px rgb(4, 228, 4);
 }
 .prog:hover{
-    box-shadow: 0 0 15px 15px rgb(4, 228, 4);
+    box-shadow: 0 0 15px 15px rgb(106, 109, 106);
     transition: .2s ease-in-out;
     cursor: pointer;
+
+}
+.theory{
+    height: 300px;
+    background-color: rgba(126, 132, 126, 0.721);
+    width: 250px;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+#projects{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    
 
 }
 .inner{
@@ -423,9 +458,18 @@ p{
     width: 100%;
 
 }
-a{
-    margin-top: 1rem;
-    padding: 1rem;
+.img{
+    height: 500px;
+}
+.theory:hover{
+    background-color: #272826;
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+   
+}
+#h2{
+    color: rgb(205, 198, 226);
     
 }
 
@@ -445,9 +489,9 @@ a{
         border: 1px solid rgb(13, 231, 13);
         box-shadow: 0 0 10px 5px rgb(24, 24, 228);
         position: fixed;
-        left: 7vw;
+        
         top: 5vh;
-        width: 90vw;
+        width: 100vw;
         border-radius: .5rem;
        
         
@@ -473,6 +517,8 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+       
+       
     }
     #react{
         font-size: .6rem;
@@ -522,6 +568,9 @@ a{
         box-shadow: 0 0 15px 5px rgb(10, 223, 10);
         transition: .2s ease-in-out;
     }
+    .right_img img{
+        height: 150px;
+    }
  
     .cv{
         padding: .4rem;
@@ -540,8 +589,8 @@ a{
         width: 40vw;
         height: 48vh;}
         .heading{
-            font-size: 2.5vw;
-            width: 10vw;
+            font-size: 5vw;
+            width: 25vw;
             height: 4vh;
             border-bottom: 1px solid rgb(22, 205, 22);
         }
@@ -561,10 +610,10 @@ a{
             height: 6vh;
         }
         .key{
-            font-size: 1.9vw;
+            font-size: 3vw;
         }
         .value{
-            font-size: 1.9vw;
+            font-size: 3vw;
         }
         #about{
             background-color: rgb(17, 19, 19);
@@ -610,7 +659,7 @@ a{
         
         }
         .inner_text{
-            font-size: .4rem;
+            font-size: .6rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
@@ -620,27 +669,34 @@ a{
             color: rgb(10, 229, 10);
         }
         .inner_javavalue{
-            font-size: .5rem;
+            font-size: .6rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .inner_cssvalue{
-            font-size: .5rem;
+            font-size: .6rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .inner_htmlvalue{
-            font-size: .5rem;
+            font-size: .6rem;
             margin-left: 1rem;
             color: rgb(12, 233, 12);
         }
         .head_skill{
-            font-size: 1rem;
-            margin-left: 3rem;
+            font-size: 4rem;
+            margin-left: 2rem;
         }
         .up_skill{
             height: 30vh;
             width: 100vw;
+        }
+        
+        #projects{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         .cv1{
             font-size: .5rem;
@@ -649,6 +705,23 @@ a{
             color: black;
             background-color: linear-gradient(to right,rgba(0, 128, 0, 0.651),white,rgba(0, 0, 255, 0.842),yellow);
         }
+        .theory{
+            height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            border-radius: .5rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: .7rem;
+        }
+        .h2{
+            font-size: .8rem;
+        }
+        h2{
+            font-size: .7rem;
+        }
+
         .cv2{
             font-size: .7rem;
             padding: 1rem;
