@@ -34,10 +34,12 @@ html{
     transition: .3s ease-in-out;
 }
 .navbar{
-    width: 100vw;
+    width: 80vw;
     height: 8vh;
     background-color: rgba(232, 223, 224, 0.027);
    position: fixed;
+   margin-right: 1rem;
+   margin-left: 6rem;
    
     top: 5vh;
     border-radius: .6rem;
