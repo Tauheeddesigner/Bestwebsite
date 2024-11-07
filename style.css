@@ -462,9 +462,7 @@ p{
     width: 100%;
 
 }
-.img{
-    height: 500px;
-}
+
 .theory:hover{
     background-color: #272826;
     transition: all .5s ease-in-out;
@@ -494,9 +492,10 @@ p{
         box-shadow: 0 0 10px 5px rgb(24, 24, 228);
         position: fixed;
         
-        top: 5vh;
+        top: 3vh;
         width: 100vw;
         border-radius: .5rem;
+        margin-right: 2rem;
        
         
     }
@@ -521,6 +520,7 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 90vh;
        
        
     }
@@ -565,8 +565,8 @@ p{
         font-size: .6rem;
     }
     .right_img{
-        height: 150px;
-        width: 120px;
+        height: 120px;
+        width: 110px;
         border-radius: 50%;
        
         box-shadow: 0 0 15px 5px rgb(10, 223, 10);
@@ -979,3 +979,7 @@ h1{
     background-color: rgb(17, 19, 19);
    
 }
+.right_img{
+    margin-top: 4rem;
+}
+
