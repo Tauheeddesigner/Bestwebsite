@@ -306,7 +306,7 @@ span{
 }
 #skills{
     background-color: rgb(17, 19, 19);
-    height: 90vh;
+    height: 84vh;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -617,7 +617,7 @@ p{
             font-size: 3vw;
         }
         .value{
-            font-size: 3vw;
+            font-size: 2.5vw;
         }
         #about{
             background-color: rgb(17, 19, 19);
@@ -689,7 +689,7 @@ p{
         }
         .head_skill{
             font-size: 4rem;
-            margin-left: 2rem;
+            margin-left: 1rem;
         }
         .up_skill{
             height: 30vh;
