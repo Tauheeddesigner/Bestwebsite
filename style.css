@@ -34,11 +34,11 @@ html{
     transition: .3s ease-in-out;
 }
 .navbar{
-    width: 80vw;
+    width: 100vw;
     height: 8vh;
     background-color: rgba(232, 223, 224, 0.027);
    position: fixed;
-    left: 10vw;
+   
     top: 5vh;
     border-radius: .6rem;
     display: flex;
@@ -51,7 +51,7 @@ html{
    box-shadow: 0 0 15px 5px blue;
 }
 a{
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .navbar:hover{
@@ -88,9 +88,10 @@ cursor: pointer;
 }
 .nav_list a{
     text-decoration: none;
+    
 }
 .list-item{
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     font-size: 1.2rem;
 
@@ -195,15 +196,7 @@ main{
 .cv1{
     margin-left: 4rem;
 }
-.right_main{
-    
-    
-    margin-top: 4rem;
-    margin-right: 4rem;
-  
-    
-    
-}
+
 button{
     width: 10rem;
 }
@@ -214,8 +207,8 @@ button{
   
 
 
-height: 250px;
-width: 250px;
+height: 200px;
+width: 200px;
 
 border: 1px solid green;
 border-radius: 50%;
@@ -226,6 +219,7 @@ justify-content: center;
 align-items: center;
 padding: 2rem;
 position: relative;
+
 
 
 }
@@ -475,7 +469,9 @@ p{
     
 }
 
-
+.right_img{
+    margin-top: 4rem;
+}
 
 @media(max-width:768px){
     .list-item{
@@ -724,6 +720,10 @@ p{
         }
         h2{
             font-size: .7rem;
+        }
+        #skills{
+            width:100%;
+            height:90vh;
         }
 
         .cv2{

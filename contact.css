@@ -163,13 +163,14 @@ p{
 }
 @media(max-width:768px){
     .box{
-        height: 210px;
-        width: 220px;
+        height: 230px;
+        width: 240px;
         border: 1px solid green;
        margin-left: 3.5rem;
     }
     h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-left: 3.5rem;
     }
     img{
         height: 6vh;
