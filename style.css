@@ -532,7 +532,7 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 70vh;
+        height: 80vh;
        
        
     }
@@ -708,7 +708,7 @@ p{
             margin-left: 1rem;
         }
         .up_skill{
-            height: 30vh;
+            height: 40vh;
             width: 100vw;
         }
         
