@@ -34,13 +34,13 @@ html{
     transition: .3s ease-in-out;
 }
 .navbar{
-    width: 95vw;
+    width: 98vw;
     height: 8vh;
     background-color: rgba(232, 223, 224, 0.027);
    position: fixed;
-   margin-right: 1rem;
-  
    
+  
+   margin-left: .3rem;
     top: 5vh;
     border-radius: .6rem;
     display: flex;
@@ -74,6 +74,9 @@ cursor: pointer;
 .rightnav{
     margin-right: 2rem;
    
+}
+.none{
+    display: none;
 }
 .leftnav{
     margin-left: .5rem;
@@ -496,11 +499,13 @@ p{
         border: 1px solid rgb(13, 231, 13);
         box-shadow: 0 0 10px 5px rgb(24, 24, 228);
         position: fixed;
-        margin-left: 6rem;
-        
         top: 3vh;
         width: 100vw;
         border-radius: .5rem;
+        margin-left: 0rem;
+        
+        
+        
       
         
        
@@ -742,4 +747,4 @@ p{
         }
  
   
-  
+    }
