@@ -5,13 +5,30 @@
 }
 body{
     position: relative;
+    background-color: rgb(17, 19, 19);
 }
 #home{
-    background-color: rgb(17, 19, 19);
+   
     height: 70vh;
     width: 100vw;
     overflow-x: hidden;
    
+}
+#Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(19, 226, 19);
 }
 html{
     scroll-behavior: smooth;
@@ -681,6 +698,7 @@ p{
             
         
         }
+        
         .inner_text{
             font-size: .6rem;
             margin-left: 1rem;
