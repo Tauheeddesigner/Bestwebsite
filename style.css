@@ -502,7 +502,8 @@ p{
         top: 3vh;
         width: 100vw;
         border-radius: .5rem;
-        margin-left: 0rem;
+        margin-right: .3rem;
+        
         
         
         
@@ -532,7 +533,8 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 80vh;
+        height: 100vh;
+        
        
        
     }
@@ -664,6 +666,7 @@ p{
             justify-content: center;
             align-items: center;
             flex-direction: column;
+           height: 0vh;
         }
         .inner{
             width: 80%;
