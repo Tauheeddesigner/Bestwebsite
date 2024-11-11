@@ -512,8 +512,23 @@ p{
        
        
     } 
+    .head_skill{
+        margin-right: 4rem;
+    }
+    i{
+        font-size: 1rem;
+        position: absolute;
+        top: .5px;
+        right: .1rem;
+    }
     .linear_prog{
         height: 1vh;
+    }
+    .Projects{
+        height: 100px;
+    }
+    .cv{
+        margin-left: 1rem;
     }
     .navbar{
         height: 4.5vh;
@@ -523,7 +538,7 @@ p{
         top: 3vh;
         width: 100vw;
         border-radius: .5rem;
-        margin-right: .3rem;
+        margin-right: .5rem;
         
         
         
@@ -554,7 +569,7 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 100vh;
+        height: 95vh;
         
        
        
@@ -590,6 +605,13 @@ p{
     .cv{
         box-shadow: 0px 0px 10px 5px rgb(50, 50, 188);
         color: black;
+        padding: 2rem;
+        font-size: 1rem;
+         
+         
+    }
+    button{
+        padding: 1.5rem;
     }
     .react_value{
         font-size: .7rem;
@@ -776,3 +798,4 @@ p{
  
   
     }
+    
