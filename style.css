@@ -516,10 +516,10 @@ p{
         margin-right: 4rem;
     }
     i{
-        font-size: 1rem;
+        font-size: .7rem;
         position: absolute;
         top: .5px;
-        right: .1rem;
+        overflow: hidden;
     }
     .linear_prog{
         height: 1vh;
@@ -536,9 +536,9 @@ p{
         box-shadow: 0 0 10px 5px rgb(24, 24, 228);
         position: fixed;
         top: 3vh;
-        width: 100vw;
+        width: 98%;
         border-radius: .5rem;
-        margin-right: .5rem;
+       
         
         
         

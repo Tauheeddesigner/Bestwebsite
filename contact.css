@@ -173,21 +173,21 @@ p{
         margin-left: 3.5rem;
     }
     img{
-        height: 6vh;
+        height: 8vh;
     }
     .phone_sys{
-        height: 13vh;
+        height: 17vh;
         
         background-color: rgb(12, 225, 12);
         border: 1px solid blue;
         border-radius: .5rem;
       
        
-        width: 40vw;
+        width: 47vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 4.2rem;
+        margin-left: 5.5rem;
         
         
     
@@ -195,10 +195,13 @@ p{
 
     }
     p{
-        font-size: .5rem;
+        font-size: 1rem;
     }
     a{
-        font-size: .5rem;
+        font-size: 1rem;
+    }
+    span{
+        font-size: 1rem;
     }
 
 }
